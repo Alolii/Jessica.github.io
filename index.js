@@ -13,8 +13,8 @@ function createCorazon() {
     corazon.classList.add('corazon');
 
     // Obtener el ancho y alto del viewport
-    const viewportWidth = window.innerWidth;
-    const viewportHeight = window.innerHeight;
+    const viewportWidth = window.innerWidth - 50;
+    const viewportHeight = window.innerHeight - 50;
 
     // Calcular coordenadas aleatorias dentro del viewport
     const x = Math.random() * viewportWidth;
